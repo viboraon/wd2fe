@@ -1995,6 +1995,7 @@ btn("NAME REANIMATE", function()
 
 RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)
 AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0.000782012939453125,-0.9,-0.9),angles(-3.4033920413889427+0.03490658503988659*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime)
+AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.2617993877991494+0.03490658503988659*sin(sine*3),0,3.141592653589793)),deltaTime)
 
 end,
 		walk = function()
@@ -2007,13 +2008,15 @@ end,
 
 RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)
 AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0.000782012939453125,-0.9,-0.9),angles(-3.4033920413889427+0.03490658503988659*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime)
+AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.2617993877991494+0.03490658503988659*sin(sine*3),0,3.141592653589793)),deltaTime)
 end,
 		jump = function()
 			velYchg()
 			local Vfw, Vrt = velbycfrvec()
 
 RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)
-AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0.000782012939453125,-0.9,-0.9),angles(-3.4033920413889427+0.03490658503988659*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime) 
+AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0.000782012939453125,-0.9,-0.9),angles(-3.4033920413889427+0.03490658503988659*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime)
+AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.2617993877991494+0.03490658503988659*sin(sine*3),0,3.141592653589793)),deltaTime) 
 end,
 		fall = function()
 			velYchg()
@@ -2021,6 +2024,7 @@ end,
 
 RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)
 AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0.000782012939453125,-0.9,-0.9),angles(-3.4033920413889427+0.03490658503988659*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime)
+AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.2617993877991494+0.03490658503988659*sin(sine*3),0,3.141592653589793)),deltaTime)
 end
 	})
 
